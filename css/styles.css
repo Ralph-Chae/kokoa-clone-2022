@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import "./reset.css";
+@import "./variable.css";
 @import "./status-bar.css";
+
 
 body{
     font-family:'Do Hyeon', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
@@ -21,4 +23,25 @@ body{
 .Welcome-header__text{
     width: 60%;
     opacity: 0.5;
+}
+
+#longin-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+#longin-form input{
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    transition: border-color .6s ease-in-out;
+}
+
+#longin-form input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+#longin-form input:focus{
+    border-color: var(--yellow) ;
 }
