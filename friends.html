@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome to kokoaTalk</title>
-        <link rel="stylesheet" href="./css/styles.css">
+        <title>Friends - kokoaTalk</title>
+        <link rel="stylesheet" class="nav__a" href="./css/styles.css">
     </head>
     <body>
         <div class="status-bar">
@@ -22,21 +22,26 @@
                 <i class="fa-solid fa-bolt"></i>
             </div>
         </div>
-        <header class="Welcome-header">
-            <h1 class="Welcome-header__title">Welcome To Kokoa Clone</h1>
-            <p class="Welcome-header__text">
-                If you have a Kokoa Account,
-                log in with your email or phone number. 
-            </p>
-        </header>
-
-        <form action="friends.html" method="get" id="longin-form">
-            <input name="username" type="text" placeholder="Eamil or Phone number">
-            <input name="password" type="password" placeholder="password">
-            <input type="submit" value="Log In">
-            <a href="#">Find Kokoa Account or Password</a>
-        </form>
-
+<nav class="nav">
+    <ul class="nav__ul">
+        <li class="nav__li">
+            <a class="nav__link" href="./friends.html">
+                <i class="fa-solid fa-user-group fa-2x"></i></a>
+        </li>
+        <li>
+            <a class="nav__link" href="#">
+                <i class="fa-solid fa-comment fa-2x"></i></a>
+        </li>
+        <li>
+            <a class="nav__link" href="#">
+                <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+        </li>
+        <li>
+            <a class="nav__link" href="#">
+                <i class="fa-solid fa-ellipsis fa-2x"></i></a>
+        </li>
+    </ul>
+</nav>
 
         
         
