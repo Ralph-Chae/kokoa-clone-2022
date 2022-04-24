@@ -7,10 +7,13 @@
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
 @import "./components/badge.css";
+@import "./components/point.css";
+
 
 /* screen */
 @import "./screen/loginform.css";
 @import "./screen/friends.css";
+@import "./screen/find.css";
 
 body{
     font-family:'sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 

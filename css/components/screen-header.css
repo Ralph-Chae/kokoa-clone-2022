@@ -14,3 +14,6 @@
     margin-left: 25px;
 }
 
+.screen-header__icons span{
+    position: relative;
+}
