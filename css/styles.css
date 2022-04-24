@@ -6,14 +6,18 @@
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
+@import "./components/badge.css";
 
 /* screen */
 @import "./screen/loginform.css";
 @import "./screen/friends.css";
 
 body{
-    font-family:'Do Hyeon', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    font-family:'sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #2e363e;
 }
 
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}
