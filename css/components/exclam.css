@@ -1,4 +1,7 @@
 .user-component__text span{
-    color: tomato;
-    
+    color: tomato;   
+}
+
+.fa-envelope-open-text{
+    color: black;
 }
