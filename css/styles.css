@@ -9,12 +9,14 @@
 @import "./components/badge.css";
 @import "./components/point.css";
 @import "./components/exclam.css";
-
+@import "./components/icon-row.css";
 
 /* screen */
 @import "./screen/loginform.css";
 @import "./screen/friends.css";
 @import "./screen/find.css";
+@import "./screen/more.css";
+
 
 body{
     font-family:'sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 

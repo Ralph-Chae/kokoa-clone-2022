@@ -1,0 +1,24 @@
+.more-extentions{
+    margin-top: 40px;
+}
+
+.more-extentions__icon{
+    display: flex;
+    justify-content: space-around;
+} 
+
+.more-extentions__icon-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+.more-extentions__icon-img i{
+    font-size: 40px;
+    color:blueviolet;
+}
+
+.more-extentions__icon-img span{
+    margin-top: 20px;
+}
