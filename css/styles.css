@@ -10,6 +10,7 @@
 @import "./components/point.css";
 @import "./components/exclam.css";
 @import "./components/icon-row.css";
+@import "./components/alt-screen-header.css";
 
 /* screen */
 @import "./screen/loginform.css";
