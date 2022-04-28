@@ -11,13 +11,15 @@
 @import "./components/exclam.css";
 @import "./components/icon-row.css";
 @import "./components/alt-screen-header.css";
+@import "./components/chat__header.css";
 
 /* screen */
 @import "./screen/loginform.css";
 @import "./screen/friends.css";
 @import "./screen/find.css";
 @import "./screen/more.css";
-
+@import "./screen/settings.css";
+@import "./screen/chatroom.css";
 
 body{
     font-family:'sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
